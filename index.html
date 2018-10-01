@@ -8,37 +8,283 @@
 
 	<!-- third party plugins -->
 	<link rel="stylesheet" type="text/css" href="css/stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/stylesheets/custom.css">
 
 </head>
 <body>
 	<header>
-		<nav class="navbar justify-content-end navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="#">
-				<img src="images/gustoso-logo-jpg.png" alt="logo">
-			</a>
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand px-1 ml-1 px-xl-4 ml-xl-4" href="#"><img src="images/gustoso-logo-jpg.png" alt="logo"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-	    			<li class="nav-item active">
-	    				<a class="nav-link" href="#">Welcome</a>
-	    			</li>
-	    			<li class="nav-item">
-	    				<a class="nav-link" href="#">Menu</a>
-	    			</li>
-	                <li class="nav-item">
-	                    <a class="nav-link" href="#">Reservations</a>
-	                </li>
-	                <li class="nav-item">
-	                    <a class="nav-link" href="#">News</a>
-	                </li>
-	                <li class="nav-item">
-	                    <a class="nav-link" href="#">Contact</a>
-	                </li>
-				</ul>
-			</div>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		        <li class="nav-item active">
+    				<a class="nav-link" href="#">Welcome</a>
+    			</li>
+    			<li class="nav-item">
+    				<a class="nav-link" href="#">Menu</a>
+    			</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reservations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                
+		    </ul>
+		    <div class="my-2 my-lg-0 mr-1 pr-1 mr-xl-5 pr-xl-5 social-links">
+                <a class="nav-link px-1 px-xl-2" href="#"><img src="images/logo-twitter-jpg.png"></a>
+
+		      	<a class="nav-link px-1 px-xl-2" href="#"><img src="images/logo-facebook-jpg.png"></a>
+                
+                <a class="nav-link px-1 px-xl-2" href="#"><img src="images/logo-instagram-jpg.png"></a>
+		    </div>
+		  </div>
 		</nav>
+		<div class="container">
+			<div class="jumbotron bg-transparent text-white text-center">
+				<h1 class="header-h">Pastry with love</h1>
+				<hr class="line my-2 my-xl-5">
+				<p class="header-p py-1 py-xl-3">We’re bringing you fresh ingredients every <br> day in ways you can’t resist.</p>
+				<button type="button" class="btn btn-dark btn-header">Our Menu</button>
+			</div>
+		</div>
+		<div class="img-fill"></div>
+		<img class="header-foot" src="images/food-jpg.png">
 	</header>
+
+	<section class="second-section py-5 my-1 my-xl-5">
+		<div class="container">
+			<div class="row">
+			    <div class="col-12 text-center col-lg-6">
+			      	<h1 class="common-header">Art of cakes</h1>
+			      	<p class="common-subhead">we create delicious memories</p>
+			      	<p class="common-text py-3 py-xl-4">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+
+			      	<h5 class="common-header">Chef Cook</h5>
+			      	<div class="row p-1 p-xl-4 mx-3">
+			      		<div class="col">
+			      			<p class="cook-side-text">Benito</p>
+			      		</div>
+			      		<div class="col">
+			      			<img src="images/chef-cook-jpg.jpg">
+			      		</div>
+			      		<div class="col">
+			      			<p class="cook-side-text">Gaspare</p>
+			      		</div>
+			      	</div>
+
+			      	<p class="cook-bottom-text pb-3">Unique creations for unique <br> occasions</p>
+			    </div>
+			    <div class="col-12 col-lg-6">
+			    	<div class="position-relative">
+				      	<div class="row">
+				      		<div class="col-6 p-0">
+				      			<img src="images/img-top-left-copy-jpg.jpg" class="img-fluid p-2">
+				      		</div>
+				      		<div class="col-6 p-0">
+				      			<img src="images/img-top-right-copy-jpg.jpg" class="img-fluid p-2">
+				      		</div>
+				      		<div class="col-6 p-0">
+				      			<img src="images/img-bottom-left-copy-jpg.jpg" class="img-fluid p-2">
+				      		</div>
+				      		<div class="col-6 p-0">
+				      			<img src="images/img-bottom-right-copy-jpg.jpg" class="img-fluid p-2">
+				      		</div>
+				      		<div class="tag-div">
+					      		<img src="images/vektor-smartobjekt-jpg1.png" class="img-fluid">
+					      		<span>TASTES SO GOOD!</span>
+				      		</div>
+				      	</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="third-section">
+		<div class="container px-3 px-xl-5">
+			<div class="">
+				<div class="row">
+					<div class="col-12 col-md-5 p-3 p-md-0 responsive">
+						<div class="tasty-pancakes">
+						</div>
+					</div>
+					<div class="col-12 col-md-6 p-3 p-md-0">
+						<div class="smartobjekt-windmill bg-white p-5">
+							<div class="position-relative">
+								<div class="corner-wrap">
+									<p class="text-style1">READY IN</p>
+									<p class="text-style2">40</p>
+									<p class="text-style3">mins</p>
+								</div>
+								<h1 class="common-header">Tasty pancakes</h1>
+								<p class="common-subhead">season favourite</p>
+								<p class="common-text py-3 py-xl-4 mb-5">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+							</div>
+							<div class="px-5">
+								<div class="multiple-items">
+								  <div><img class="m-auto" src="images/tasty-pancakes-3-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-2-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-1-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-3-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-2-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-1-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-3-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-2-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-1-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-3-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-2-jpg.png"></div>
+								  <div><img class="m-auto" src="images/tasty-pancakes-1-jpg.png"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="forth-section py-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class=" col-md-12 col-lg-7 col-xl-8 text-center">
+					<h1 class="common-header text-white">Breakfast</h1>
+					<p class="common-subhead">7am Breakfast? we’re open!</p>
+
+					<h4 class="text-style1">Full breakfast</h4>
+					<p class="text-style2">Duis ut tortor, et risus, vulputate pretium</p>
+					<p class="text-style3">$12.49</p>
+
+					<h4 class="text-style1">Toast & Jam</h4>
+					<p class="text-style2">Suspendisse, tempus, nterdum</p>
+					<p class="text-style3">$4.90</p>
+
+					<h4 class="text-style1">Muffins</h4>
+					<p class="text-style2">Fusce eget dui sodales est</p>
+					<p class="text-style3">$3.95</p>
+				</div>
+				<div class=" col-md-12 col-lg-5 col-xl-4">
+					<div class="est-1893 py-5 pl-5 pr-4 text-center">
+						<div class="space-div">
+							<div class="row">
+								<div class="col">
+									<span>EST.</span>
+								</div>
+								<div class="col">
+									<span>1893</span>
+								</div>
+							</div>
+							
+							
+							<h1 class="common-header pt-5 mt-5">Your morning Escape with Flair</h1>
+							<p class="common-text py-4">Donec vitae sapien ut libero venenatis faucibus. 
+							Nullam quis ante. Etiam sit amet orci eget eros
+							 faucibus tincidunt. Duis leo.</p>
+							<button type="button" class="btn btn-light">Read</button> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="fifth-section text-center">
+		<div class="container-fluid">
+			<h1 class="common-header">The Jibarito sandwich</h1>
+			<p class="common-subhead">the best sandwich you’ve ever tasted!</p>
+			<div class="row">
+				<div class="col-1"></div>
+  				<div class="col-12 col-lg-3 px-5">
+  					<img class="mb-1" src="images/class-aptent-jpg.png">
+  					<h3>Class aptent</h3>
+  					<p class="common-text mb-4">Quot alienum persecuti ut eam, nam adatqui primis nusquam.</p>
+
+  					<img class="mb-1" src="images/nulla-eget-jpg.png">
+  					<h3>Nulla eget</h3>
+  					<p class="common-text mb-4">Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
+
+  					<img class="mb-1" src="images/sed-nibh-purus-jpg.png">
+  					<h3>Sed nibh purus</h3>
+  					<p class="common-text mb-4"> Aenean eleifend tellus leo ligula,porttitor eu, consequat vitae.</p>
+  				</div>
+				<div class="col-12 col-lg-7">
+					<div class="p-4 position-relative">
+						<img src="images/final-section-img-copy-jpg.png" class="img-fluid">
+						<div class="right-div">
+							<div class="content-wrap">
+								<p class="text-style1">PREP</p>
+								<p class="text-style2">15</p>
+								<p class="text-style3">mins</p>
+							</div>
+							<div class="content-wrap">
+								<p class="text-style1">cook</p>
+								<p class="text-style2">35</p>
+								<p class="text-style3">mins</p>
+							</div>
+							<div class="content-wrap">
+								<p class="text-style1">ready in</p>
+								<p class="text-style4">50</p>
+								<p class="text-style3">mins</p>
+							</div>
+						</div>
+						<button type="button" class="btn btn-light bottom-btn">Full Recipe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="border-div">
+			  <span>our menu</span>
+			  <span>culture</span>
+			  <span>gallery</span>
+			</div>	
+		    <span class="logo">Gustoso</span>
+		    <div class="border-div">
+			  <span>events</span>
+			  <span>catering</span>
+			  <span>visit us</span>
+		    </div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.multiple-items').slick({
+			  infinite: true,
+			  slidesToShow: 3,
+			  slidesToScroll: 3,
+			  dots: true,
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1,
+			        dots: false
+			      }
+			    }]
+			});
+		});
+	</script>
+
 </body>
 </html>
